@@ -1,28 +1,20 @@
-.App {
+.search-bar, .title, .banner {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.banner {
+  background-color: LightSkyBlue;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.voter-block {
+  margin: 20px 0px 20px 0px;
+  /* margin-bottom: 30px; */
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.card {
+  background-color: DeepSkyBlue;
+  border-radius: 30%;
+  padding: 25px 25px 25px 25px;
+  margin: 30px 30px 30px 30px;
+  text-align: center;
 }
